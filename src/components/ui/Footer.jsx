@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <>
@@ -5,18 +7,16 @@ function Footer() {
         <div className="flex w-full flex-col justify-between md:flex-row">
           <ul className="flex items-center justify-center gap-8 font-semibold text-stone-700 md:mr-20 md:text-xl">
             <li>
-              <a href="/home" className="font-extrabold text-stone-900">
-                Home
-              </a>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
           </ul>
 

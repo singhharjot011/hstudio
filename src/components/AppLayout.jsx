@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Footer from "./ui/Footer";
 import FreelanceWork from "./ui/FreelanceWork";
 import Hero from "./ui/Hero";
@@ -8,11 +9,7 @@ import TechStack from "./ui/TechStack";
 function AppLayout() {
   return (
     <>
-      <Hero />
-      <TechStack />
-      <LatestWork />
-      <FreelanceWork />
-      <Pitch />
+      <Outlet />
       <Footer />
     </>
   );
