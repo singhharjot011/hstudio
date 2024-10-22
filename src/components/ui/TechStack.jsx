@@ -18,55 +18,67 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/html.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="html"
                 />
-                <span className="font-semibold">HTML</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  HTML
+                </span>
               </div>
 
               <div className="flex flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/css.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="css"
                 />
-                <span className="font-semibold">CSS</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  CSS
+                </span>
               </div>
 
               <div className="flex flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/javascript.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="JavaScript"
                 />
-                <span className="font-semibold">JavaScript</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  JavaScript
+                </span>
               </div>
 
               <div className="flex flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/nodejs.png"
-                  className="h-10 w-16 object-cover lg:h-14 lg:w-20"
+                  className="h-6 w-10 object-cover lg:h-10 lg:w-16 xl:h-14 xl:w-20"
                   alt="Node JS"
                 />
-                <span className="font-semibold">Node JS</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Node JS
+                </span>
               </div>
 
               <div className="flex flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/mongodb.png"
-                  className="h-10 w-20 object-cover lg:h-14 lg:w-24"
+                  className="h-6 w-12 object-cover lg:h-10 lg:w-20 xl:h-14 xl:w-24"
                   alt="Mongo DB"
                 />
-                <span className="font-semibold">Mongo DB</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Mongo DB
+                </span>
               </div>
 
               <div className="flex flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/sql.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="SQL"
                 />
-                <span className="font-semibold">SQL</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  SQL
+                </span>
               </div>
             </div>
           </div>
@@ -83,64 +95,78 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/tailwind1.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="tailwind"
                 />
-                <span className="font-semibold">Tailwind</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Tailwind
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/bootstrap.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="Bootstrap"
                 />
-                <span className="font-semibold">Bootstrap</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Bootstrap
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/react.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="React"
                 />
-                <span className="font-semibold">React</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  React
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/react-router.png"
-                  className="h-10 w-min object-cover lg:h-14 lg:w-min"
+                  className="h-5 w-min object-cover md:h-7 lg:h-10 xl:h-14"
                   alt="React Router"
                 />
-                <span className="font-semibold">React Router</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  React Router
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/redux.png"
-                  className="h-10 w-min object-cover lg:h-14 lg:w-min"
+                  className="h-5 w-min object-cover md:h-7 lg:h-10 xl:h-14"
                   alt="Redux"
                 />
-                <span className="font-semibold">Redux</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Redux
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/express-js.png"
-                  className="h-10 w-min object-cover lg:h-14 lg:w-min"
+                  className="h-5 w-min object-cover md:h-7 lg:h-10 xl:h-14"
                   alt="Express JS"
                 />
-                <span className="font-semibold">Express JS</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Express JS
+                </span>
               </div>
 
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/mongoose.png"
-                  className="h-10 w-min object-cover lg:h-14 lg:w-min"
+                  className="h-5 w-min object-cover md:h-7 lg:h-10 xl:h-14"
                   alt="mongoose"
                 />
-                <span className="font-semibold">Mongoose</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Mongoose
+                </span>
               </div>
             </div>
           </div>
@@ -157,58 +183,72 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/git.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="Git"
                 />
-                <span className="font-semibold">Git</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Git
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/github.png"
-                  className="h-max w-16 lg:w-20"
+                  className="h-max w-7 md:w-10 lg:w-16 xl:w-20"
                   alt="github"
                 />
-                <span className="font-semibold">Git Hub</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Git Hub
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/vscode.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="VS Code"
                 />
-                <span className="font-semibold">VS Code</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  VS Code
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/supabase.png"
-                  className="h-10 w-10 lg:h-14 lg:w-14"
+                  className="h-6 w-6 lg:h-10 lg:w-10 xl:h-12 xl:w-12"
                   alt="Supabase"
                 />
-                <span className="font-semibold">Supabase</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Supabase
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/cloudinary.png"
-                  className="h-10 w-min lg:h-14"
+                  className="h-7 w-min lg:h-10 xl:h-14"
                   alt="Cloudinary"
                 />
-                <span className="font-semibold">Cloudinary</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Cloudinary
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/postman.webp"
-                  className="h-10 w-min lg:h-14"
+                  className="h-7 w-min lg:h-10 xl:h-14"
                   alt="Postman"
                 />
-                <span className="font-semibold">Postman</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Postman
+                </span>
               </div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/powerbi.png"
-                  className="h-10 w-min lg:h-14"
+                  className="h-7 w-min lg:h-10 xl:h-14"
                   alt="Power Bi"
                 />
-                <span className="font-semibold">Power Bi</span>
+                <span className="text-xs font-semibold md:text-sm lg:text-base">
+                  Power Bi
+                </span>
               </div>
             </div>
           </div>

@@ -30,14 +30,17 @@ function Navbar() {
             id="buttons"
             className="hidden w-max items-center gap-1 md:flex lg:gap-2"
           >
-            <NavLink to="">
+            <NavLink to="https://github.com/singhharjot011" target="_blank">
               <img
                 src="/assets/icons/github.png"
                 className="h-6 w-max lg:h-8"
                 alt="Github"
               />
             </NavLink>
-            <NavLink to="">
+            <NavLink
+              to="https://www.linkedin.com/in/singhharjot011/"
+              target="_blank"
+            >
               <img
                 src="/assets/icons/linkedin.png"
                 className="aspect-square h-6 lg:h-8"
