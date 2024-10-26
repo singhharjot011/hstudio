@@ -13,7 +13,7 @@ function TechStack() {
             <h3 className="text-xl font-bold md:text-2xl lg:w-1/3 lg:text-3xl">
               Languages and Databases
             </h3>
-            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2 lg:flex-nowrap">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
@@ -89,7 +89,7 @@ function TechStack() {
               Frameworks and Libraries
             </h3>
 
-            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2 lg:flex-nowrap">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
 
               <div className="flex h-full flex-col items-center space-y-2">
@@ -177,7 +177,7 @@ function TechStack() {
             <h3 className="text-xl font-bold md:text-2xl lg:w-1/3 lg:text-3xl">
               Tools
             </h3>
-            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2 lg:flex-nowrap">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
 
               <div className="flex h-full flex-col items-center space-y-2">

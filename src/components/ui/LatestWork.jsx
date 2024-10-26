@@ -8,7 +8,7 @@ function LatestWork() {
 
   return (
     <>
-      <div className="flex flex-col bg-gradient-to-tr from-transparent via-purple-50 to-indigo-50 px-5 pt-3 text-stone-900 md:px-20 md:pt-6">
+      <div className="flex flex-col overflow-hidden bg-gradient-to-tr from-transparent via-purple-50 to-indigo-50 px-5 pt-3 text-stone-900 md:px-20 md:pt-6">
         <div className="flex items-center justify-center p-2 md:p-4">
           <h2 className="text-3xl font-extrabold text-indigo-950 md:text-4xl lg:text-5xl">
             My Latest Work
