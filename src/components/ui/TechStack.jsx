@@ -13,7 +13,7 @@ function TechStack() {
             <h3 className="text-xl font-bold md:text-2xl lg:w-1/3 lg:text-3xl">
               Languages and Databases
             </h3>
-            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
@@ -89,7 +89,7 @@ function TechStack() {
               Frameworks and Libraries
             </h3>
 
-            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
 
               <div className="flex h-full flex-col items-center space-y-2">
@@ -128,7 +128,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/react-router.png"
-                  className="h-5 w-max object-cover md:h-7 lg:h-10 xl:h-14"
+                  className="h-5 w-10 object-contain md:h-7 md:w-12 lg:h-10 lg:w-16 xl:h-14 xl:w-20"
                   alt="React Router"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -139,7 +139,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/redux.png"
-                  className="h-5 w-max object-cover md:h-7 lg:h-10 xl:h-14"
+                  className="h-5 w-10 object-contain md:h-7 md:w-12 lg:h-10 lg:w-16 xl:h-14 xl:w-20"
                   alt="Redux"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -161,7 +161,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/mongoose.png"
-                  className="h-5 w-max object-cover md:h-7 lg:h-10 xl:h-14"
+                  className="h-5 w-10 object-cover md:h-7 md:w-12 lg:h-10 lg:w-16 xl:h-14 xl:w-24"
                   alt="mongoose"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -177,7 +177,7 @@ function TechStack() {
             <h3 className="text-xl font-bold md:text-2xl lg:w-1/3 lg:text-3xl">
               Tools
             </h3>
-            <div className="relative flex flex-grow cursor-pointer flex-wrap items-center justify-center gap-8 p-2">
+            <div className="relative flex flex-grow cursor-pointer items-center justify-center gap-8 p-2">
               <div className="absolute h-full w-full content-normal rounded-b-full bg-gradient-to-b from-transparent via-transparent to-stone-800/10"></div>
 
               <div className="flex h-full flex-col items-center space-y-2">
@@ -223,7 +223,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/cloudinary.png"
-                  className="h-7 w-max lg:h-10 xl:h-14"
+                  className="h-7 w-7 lg:h-10 lg:w-10 xl:h-14 xl:w-14"
                   alt="Cloudinary"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -233,7 +233,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/postman.webp"
-                  className="h-7 w-max lg:h-10 xl:h-14"
+                  className="h-7 w-7 lg:h-10 lg:w-10 xl:h-14 xl:w-14"
                   alt="Postman"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -243,7 +243,7 @@ function TechStack() {
               <div className="flex h-full flex-col items-center space-y-2">
                 <img
                   src="/assets/icons/powerbi.png"
-                  className="h-7 w-min lg:h-10 xl:h-14"
+                  className="h-7 w-9 lg:h-10 lg:w-12 xl:h-14 xl:w-16"
                   alt="Power Bi"
                 />
                 <span className="text-xs font-semibold md:text-sm lg:text-base">
@@ -300,7 +300,7 @@ function TechStack() {
               <img
                 src="/assets/icons/others/stripe.png"
                 alt="Stripe"
-                className="h-8 w-max lg:h-16"
+                className="h-8 w-14 lg:h-16 lg:w-20"
               />
               <img
                 src="/assets/icons/others/heroku.webp"

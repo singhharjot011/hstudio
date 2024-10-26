@@ -30,20 +30,22 @@ function LatestWork() {
               />
             </div>
             <div className="flex items-center justify-between gap-2">
-              <div className="h-10 w-10 rounded-full bg-violet-100 p-1">
-                <img
-                  src="/assets/portfolio/vanilla-crm/vcrm-logo.png"
-                  alt="Logo"
-                  className="h-full w-full object-cover"
-                />
+              <div className="flex items-center justify-center gap-2">
+                <div className="h-10 w-10 rounded-full bg-violet-100 p-1">
+                  <img
+                    src="/assets/portfolio/vanilla-crm/vcrm-logo.png"
+                    alt="Logo"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <a
+                  href="https://reactjewels.netlify.app/"
+                  target="_blank"
+                  className="flex-grow text-xl font-semibold hover:text-purple-700"
+                >
+                  Vanilla CRM
+                </a>
               </div>
-              <a
-                href="https://reactjewels.netlify.app/"
-                target="_blank"
-                className="flex-grow text-xl font-semibold hover:text-purple-700"
-              >
-                Vanilla CRM
-              </a>
               <div className="flex gap-2">
                 <div className="flex gap-0.5">
                   <Heart /> {likes}
@@ -71,20 +73,23 @@ function LatestWork() {
             </div>
 
             <div className="flex items-center justify-between gap-2">
-              <div className="h-10 w-10 rounded-full bg-stone-100 p-1">
-                <img
-                  src="/assets/portfolio/react-jewels/rjewels-logo.png"
-                  alt="Logo"
-                  className="h-full w-full object-cover"
-                />
+              <div className="flex items-center justify-center gap-2">
+                <div className="h-10 w-10 rounded-full bg-stone-100 p-1">
+                  <img
+                    src="/assets/portfolio/react-jewels/rjewels-logo.png"
+                    alt="Logo"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <a
+                  href="https://reactjewels.netlify.app/"
+                  target="_blank"
+                  className="flex-grow text-xl font-semibold hover:text-rose-300"
+                >
+                  React Jewels
+                </a>
               </div>
-              <a
-                href="https://reactjewels.netlify.app/"
-                target="_blank"
-                className="flex-grow text-xl font-semibold hover:text-rose-300"
-              >
-                React Jewels
-              </a>
+
               <div className="flex gap-2">
                 <div className="flex gap-0.5">
                   <Heart /> {likes}
@@ -112,20 +117,22 @@ function LatestWork() {
             </div>
 
             <div className="flex items-center justify-between gap-2">
-              <div className="h-10 w-10 rounded-full bg-rose-100 p-1">
-                <img
-                  src="/assets/portfolio/tailwind-immigration/timmigration-logo.png"
-                  alt="Logo"
-                  className="h-full w-full object-cover"
-                />
+              <div className="flex items-center justify-center gap-2">
+                <div className="h-10 w-10 rounded-full bg-rose-100 p-1">
+                  <img
+                    src="/assets/portfolio/tailwind-immigration/timmigration-logo.png"
+                    alt="Logo"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <a
+                  href="https://tailwindimmigration.netlify.app/"
+                  target="_blank"
+                  className="flex-grow text-xl font-semibold hover:text-rose-800"
+                >
+                  Tailwind Immigration
+                </a>
               </div>
-              <a
-                href="https://tailwindimmigration.netlify.app/"
-                target="_blank"
-                className="flex-grow text-xl font-semibold hover:text-rose-800"
-              >
-                Tailwind Immigration
-              </a>
               <div className="flex gap-2">
                 <div className="flex gap-0.5">
                   <Heart /> {likes}
